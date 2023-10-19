@@ -1,0 +1,89 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: Montserrat,Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+  color: salmon;
+}
+
+footer {
+  background-color: salmon;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.profile-image {
+  width: 200px;
+}
+
+aside {
+  padding-bottom: 20px;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.jumbotron {
+  font-size: 20px;
+  background-color: #ff988d;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: salmon;
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.gallery {
+  padding: 20px 0;
+}
+
+.gallery img {
+  max-width: 33%;
+  min-width: 33%;
+}
